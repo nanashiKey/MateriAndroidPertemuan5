@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MateriAndroidPertemuan5</string>
+    <string-array name="dataforlist">
+        <item>BANDUNG</item>
+        <item>BOGOR</item>
+        <item>DEPOK</item>
+        <item>JAKARTA</item>
+        <item>BEKASI</item>
+        <item>TANGERANG</item>
+    </string-array>
+</resources>

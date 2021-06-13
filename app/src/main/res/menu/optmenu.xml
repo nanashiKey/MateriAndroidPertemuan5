@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:title="Options Menu 1"
+        android:id="@+id/optmenu1"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="Options Menu 2"
+        android:id="@+id/optmenu2"
+        android:icon="@android:drawable/sym_action_chat"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="Options Menu 3"
+        android:id="@+id/optmenu3"/>
+    <item android:title="options menu 4">
+        <menu>
+            <item android:title="nested menu 1"
+                android:id="@+id/nestedOpt1"/>
+            <item android:title="nested menu 2"
+                android:id="@+id/nestedOpt2"/>
+            <item android:title="nested menu 3"
+                android:id="@+id/nestedOpt3"/>
+        </menu>
+    </item>
+</menu>
